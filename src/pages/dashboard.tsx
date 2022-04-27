@@ -2,19 +2,19 @@ import { Box, Flex, SimpleGrid, Text, theme } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import { Header } from "../components/Header"
 import { Sidebar } from '../components/Sidebar'
-import { ApexOptions } from "apexcharts";
+import { ApexOptions } from 'apexcharts'
 
 // processo de lazy loading / ssr para ser carregado pelo lado do browser e não do servidor
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 
 const optionsChart: ApexOptions = {
   chart: {
-   /*  toolbar: {
+    toolbar: {
       show: false
     },
     zoom: {
       enabled: false
-    }, */
+    },
     foreColor: theme.colors.gray[500],
   },
   grid: {
