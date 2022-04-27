@@ -13,11 +13,10 @@
 - NextJS
 - TypeScript
 - Chakra UI
-</br>
-- React Hook Form
-- React Icons
-- Yup
 
+</br>
+Context / React Hook Form / React Icons / Yup / Apexcharts
+</br>
 
 
 <!-- <h3 align="center">
