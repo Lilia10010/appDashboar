@@ -2,11 +2,12 @@ import { Box, Flex, SimpleGrid, Text, theme } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import { Header } from "../components/Header"
 import { Sidebar } from '../components/Sidebar'
+import { ApexOptions } from "apexcharts";
 
 // processo de lazy loading / ssr para ser carregado pelo lado do browser e não do servidor
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 
-const options = {
+const optionsChart: ApexOptions = {
   chart: {
    /*  toolbar: {
       show: false
@@ -75,12 +76,12 @@ export default function Dashboard() {
         >
           <Box bg="gray.800" p={["6", "8"]} pb="4" borderRadius={8}>
             <Text fontSize="lg" mb="4">Inscritos da semana</Text>
-            <Chart options={options} series={series} type="area" height={160}  />
+            <Chart options={optionsChart} series={series} type="area" height={160}  />
           </Box>
 
           <Box bg="gray.800" p="8" pb="4" borderRadius={8}>
             <Text fontSize="lg" mb="4">Taxa de abertura</Text>
-             <Chart options={options} series={series} type="area" height={160}  />
+             <Chart options={optionsChart} series={series} type="area" height={160}  />
           </Box>
 
 
