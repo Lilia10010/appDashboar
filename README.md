@@ -18,6 +18,8 @@
 Context / React Hook Form / React Icons / Yup / Apexcharts
 </br></br>
 
+<!-- MirageJS: API fictícia  -->
+
 
 <!-- <h3 align="center">
     💻 <a href="#" target="_blank">Visualizar aplicação <a>
