@@ -15,7 +15,7 @@
 - Chakra UI
 
 </br>
-Context / React Hook Form / React Icons / Yup / Apexcharts
+Context / React Hook Form / React Icons / Yup / Apexcharts / React Query
 </br></br>
 
 <!-- MirageJS: API fictícia  -->
